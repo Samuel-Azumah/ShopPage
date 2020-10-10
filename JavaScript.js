@@ -30,7 +30,7 @@ $(document).ready(function(){
     $(this).parent().remove();
   });
 
-  $.ajax('data/item.json', {
+  $.ajax('item.json', {
     dataType: 'json',
     contentType: 'application/json',
     cache: false
@@ -51,7 +51,7 @@ $(document).ready(function(){
   $('#container').on('click','.item-add',function(){
     let id = $(this).parent().data('id');
 
-    $.ajax('data/addToCart.json', {
+    $.ajax('addToCart.json', {
       type: 'post',
       data: { id: id },
       dataType: 'json',
