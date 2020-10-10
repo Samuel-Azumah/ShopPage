@@ -23,7 +23,19 @@
          <label>Magazine?</label>
           <input name="wantNewsletter" id="newsletter-checkbox" checked type="radio"></input>
           <br/>
-
+ <select name="newsletterFrequency" id="newsletter-frequency">
+            <option>-</option>
+            <option selected>Daily</option>
+            <option>Weekly</option>
+          </select>
+          <br/>
+          <button id="submit-cart">Send</button>
+        </form>
+        <div id="feedback-message"></div>
+      </div>
+      <div id="container">
+        <br style="clear: left;" />
+      </div>
 <script src="JQuery-3.5.1.js"></script>
 <script src="JavaScript.js"></script>
 </body>
