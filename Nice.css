@@ -23,5 +23,22 @@ body {
     float: left;
     margin: 4px;
   }
+   .item img {
+    width: 100%;
+  }
   
+  .item .name {
+    font-size: 24px;
+  }
+  
+  .item .price {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .item .more-info {
+    display: none;
+  }
+  
+ 
  
